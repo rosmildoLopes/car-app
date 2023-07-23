@@ -34,7 +34,9 @@ const Footer = () => {
             </div>
           ))}
         </div>
-        <div className='flex justify-between px-6 sm:px-16 items-center flex-wrap mt-10 border-t border-gray-100 py-10'>
+        </div>
+        <div className='flex justify-between px-6 sm:px-16 items-center flex-wrap mt-10 border-t 
+        border-gray-100 py-10'>
           <div className='footer__copyrights-link'>
             <Link href='/'
             className='text-gray-500'>
@@ -46,7 +48,7 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-      </div>
+      
     </footer>
   )
 }
